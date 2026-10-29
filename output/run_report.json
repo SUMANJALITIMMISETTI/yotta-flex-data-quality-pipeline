@@ -1,0 +1,22 @@
+{
+  "elapsed_seconds": 0.009484,
+  "ended_at": "2026-10-29T17:00:26.332520Z",
+  "input_checksum_sha256": "143d9f13c0b5998e575dc47f91f15cdf47780f7f88be33e38434a763e8b26850",
+  "inputs": {
+    "customer_rows": 2,
+    "customers_file": "customers.csv",
+    "transaction_rows": 8,
+    "transactions_file": "transactions.csv"
+  },
+  "output_rows": 4,
+  "reconciliation": {
+    "difference": 0,
+    "input_transaction_rows": 8,
+    "output_rows": 4,
+    "rejected_rows": 4
+  },
+  "rejected_rows": 4,
+  "run_id": "run_143d9f13c0b5998e",
+  "started_at": "2026-10-29T17:00:26.324433Z",
+  "status": "success"
+}

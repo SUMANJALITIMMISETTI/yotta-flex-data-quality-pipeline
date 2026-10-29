@@ -1,0 +1,5 @@
+transaction_id,customer_id,event_type,amount,currency,event_ts,refund_of_transaction_id,signed_amount,source_file,source_row,run_id
+txn_001,cust_001,payment,25.00,USD,2025-01-04T10:00:00Z,,25.00,transactions.csv,2,run_143d9f13c0b5998e
+txn_002,cust_002,payment,10.50,USD,2025-01-06T09:00:00Z,,10.50,transactions.csv,3,run_143d9f13c0b5998e
+txn_003,cust_001,refund,5.00,USD,2025-01-05T10:00:00Z,txn_001,-5.00,transactions.csv,4,run_143d9f13c0b5998e
+txn_004,cust_001,payment,7.25,USD,2024-12-31T23:59:59Z,,7.25,transactions.csv,5,run_143d9f13c0b5998e

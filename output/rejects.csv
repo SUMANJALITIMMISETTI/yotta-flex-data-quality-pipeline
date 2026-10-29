@@ -1,0 +1,5 @@
+source_file,source_row,transaction_id,reasons,record_json
+transactions.csv,6,txn_001,duplicate_exact,"{""amount"": ""25.00"", ""currency"": ""USD"", ""customer_id"": ""cust_001"", ""event_ts"": ""2025-01-04T10:00:00Z"", ""event_type"": ""payment"", ""refund_of_transaction_id"": """", ""transaction_id"": ""txn_001""}"
+transactions.csv,7,txn_005,unknown_customer,"{""amount"": ""2.00"", ""currency"": ""USD"", ""customer_id"": ""cust_missing"", ""event_ts"": ""2025-01-07T10:00:00Z"", ""event_type"": ""payment"", ""refund_of_transaction_id"": """", ""transaction_id"": ""txn_005""}"
+transactions.csv,8,txn_006,refund_exceeds_payment,"{""amount"": ""12.00"", ""currency"": ""USD"", ""customer_id"": ""cust_002"", ""event_ts"": ""2025-01-08T10:00:00Z"", ""event_type"": ""refund"", ""refund_of_transaction_id"": ""txn_002"", ""transaction_id"": ""txn_006""}"
+transactions.csv,9,txn_007,invalid_amount,"{""amount"": ""not-money"", ""currency"": ""USD"", ""customer_id"": ""cust_002"", ""event_ts"": ""2025-01-09T10:00:00Z"", ""event_type"": ""payment"", ""refund_of_transaction_id"": """", ""transaction_id"": ""txn_007""}"

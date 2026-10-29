@@ -1,0 +1,9 @@
+transaction_id,customer_id,event_type,amount,currency,event_ts,refund_of_transaction_id
+txn_001,cust_001,payment,25.00,USD,2025-01-04T10:00:00Z,
+txn_002,cust_002,payment,10.50,USD,2025-01-06T09:00:00Z,
+txn_003,cust_001,refund,5.00,USD,2025-01-05T10:00:00Z,txn_001
+txn_004,cust_001,payment,7.25,USD,2024-12-31T23:59:59Z,
+txn_001,cust_001,payment,25.00,USD,2025-01-04T10:00:00Z,
+txn_005,cust_missing,payment,2.00,USD,2025-01-07T10:00:00Z,
+txn_006,cust_002,refund,12.00,USD,2025-01-08T10:00:00Z,txn_002
+txn_007,cust_002,payment,not-money,USD,2025-01-09T10:00:00Z,
